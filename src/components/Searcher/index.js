@@ -18,10 +18,11 @@ export const Searcher = () => {
             label="Search"
             variant="outlined"
             focused={true}
+            color="primary"
             InputProps={{
               startAdornment: (
                 <InputAdornment position="start">
-                  <Search style={{ color: "#3F51B5" }} />
+                  <Search style={{ color: "#54A9EB" }} />
                 </InputAdornment>
               ),
             }}
