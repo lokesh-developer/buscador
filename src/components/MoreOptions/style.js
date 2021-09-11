@@ -8,10 +8,10 @@ export const useStyles = makeStyles((theme) => ({
   },
   more: {
     margin: theme.spacing(1),
-    backgroundColor: "#3F51B5",
+    backgroundColor: "#54A9EB",
     color: "white",
     "&:hover": {
-      backgroundColor: "#3F51B5",
+      backgroundColor: "#54A9EB",
     },
     zIndex: theme.zIndex.drawer + 2,
   },
@@ -29,10 +29,10 @@ export const useStyles = makeStyles((theme) => ({
   },
   moreContainButtons: {
     margin: theme.spacing(1),
-    backgroundColor: "#3F51B5",
+    backgroundColor: "#54A9EB",
     color: "white",
     "&:hover": {
-      backgroundColor: "#3F51B5",
+      backgroundColor: "#54A9EB",
     },
     zIndex: theme.zIndex.drawer + 3,
   },

@@ -10,7 +10,7 @@ export const useStyles = makeStyles((theme) => ({
     overflowX: "scroll",
   },
   categories: {
-    backgroundColor: "#3F51B5",
+    backgroundColor: "#54A9EB",
     width: "fit-content",
     padding: "0px 20px",
     height: "fit-content",
