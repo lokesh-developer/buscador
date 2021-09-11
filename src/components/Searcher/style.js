@@ -7,7 +7,7 @@ export const useStyles = makeStyles((theme) => ({
     width: "100%",
     justifyContent: "center",
     alignItems: "center",
-    height: "100vh",
+    height: "80vh",
   },
   form: {
     width: "50%",

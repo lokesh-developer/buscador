@@ -1,7 +1,8 @@
-import { createTheme, InputAdornment, TextField } from "@material-ui/core";
+import { InputAdornment, TextField } from "@material-ui/core";
 import { Search } from "@material-ui/icons";
 import { Logo } from "../Logo";
 import { useStyles } from "./style";
+import { MoreOptions } from "../MoreOptions";
 
 export const Searcher = () => {
   const classes = useStyles();
@@ -27,6 +28,7 @@ export const Searcher = () => {
           />
         </form>
       </div>
+      <MoreOptions />
     </>
   );
 };
