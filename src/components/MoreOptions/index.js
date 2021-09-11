@@ -38,7 +38,7 @@ export const MoreOptions = () => {
             <Grow
               in={optionOpen}
               style={{ transformOrigin: "0 0 0" }}
-              {...(optionOpen ? { timeout: 1000 } : {})}
+              {...(optionOpen ? { timeout: 2000 } : {})}
             >
               <Tooltip
                 title="Favourites"
@@ -57,7 +57,7 @@ export const MoreOptions = () => {
             <Grow
               in={optionOpen}
               style={{ transformOrigin: "0 0 0" }}
-              {...(optionOpen ? { timeout: 2000 } : {})}
+              {...(optionOpen ? { timeout: 1000 } : {})}
             >
               <Tooltip title="Account" placement="left" aria-label="account">
                 <IconButton

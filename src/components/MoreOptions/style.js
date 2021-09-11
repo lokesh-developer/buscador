@@ -17,7 +17,6 @@ export const useStyles = makeStyles((theme) => ({
   },
   moreOptions: {
     zIndex: theme.zIndex.drawer + 1,
-    alignItems: "end",
   },
   moreContains: {
     display: "flex",
