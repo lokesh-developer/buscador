@@ -6,8 +6,8 @@ import { MoreVert, Close, Favorite, AccountCircle } from "@material-ui/icons";
 export const MoreOptions = () => {
   const classes = useStyles();
   const [optionOpen, setOptionOpen] = useState(false);
-  const [favoriteOpen, setFavoriteOpen] = useState(false);
-  const [accountOpen, setAccountOpen] = useState(false);
+  // const [favoriteOpen, setFavoriteOpen] = useState(false);
+  // const [accountOpen, setAccountOpen] = useState(false);
   const openOptions = () => {
     setOptionOpen(!optionOpen);
   };

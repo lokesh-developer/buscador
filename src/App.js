@@ -1,9 +1,10 @@
-import { Searcher } from "./components";
+import { Searcher, TeleLogin } from "./components";
 
 function App() {
   return (
     <>
       <Searcher />
+      <TeleLogin />
     </>
   );
 }
